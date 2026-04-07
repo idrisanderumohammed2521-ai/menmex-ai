@@ -1,13 +1,15 @@
-export default function Home() {
-  return (
-    <main style={{
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      height: "100vh",
-      fontFamily: "Arial"
-    }}>
-      <h1>🔥 Menmex AI is Live!</h1>
-    </main>
-  );
+{
+  "name": "menmex-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
